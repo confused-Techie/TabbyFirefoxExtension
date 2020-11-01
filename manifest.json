@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Tabby Firefox Extension",
+  "version": "1.0",
+
+  "description": "Easily add BookMarks to Tabby from Firefox!",
+
+  "icons": {
+    "48": "images/tabbyIcon48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["extension.js"]
+    }
+  ]
+}
