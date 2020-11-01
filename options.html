@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="styelsheet" href="bootstrap/boostrap.css">
+      <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+      <link rel="stylesheet" href="bootstrap/bootstrap-grid.css">
+      <link rel="stylesheet" href="bootstrap/bootstrap-grid.min.css">
+      <link rel="stylesheet" href="extension.css">
+      <h4 style="text-align:center;">Tabby Extension Settings</h4>
+    </head>
+    <body>
+      <div class="card-group">
+      <div class="card" style="width: 20rem;">
+        <div class="card-body">
+          <div class="card-title">
+            Server
+          </div>
+          <div class="card-text">
+            <label for="serverAddress">Server IP Address</label>
+            <input type="plaintext" id="serverAddress" class="form-control" aria-describedby="serverHelpBlock">
+            <small id="serverHelpBlock" class="form-text text-muted">
+              Must include 'https://' or 'http://' and the Server's Port number.
+            </small>
+
+            <a href="#"><button type="button" class="btn btn-dark" id="serverAddressButton">Save Server</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="width: 20rem;">
+        <div class="card-body">
+          <div class="card-title">
+            Themes/UI
+          </div>
+          <div class="card-text">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="themeDropDownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled>
+                Choose Themes
+              </button>
+          </div>
+        </div>
+        <div class="card-footer">
+          Themes are under construction currently.
+        </div>
+      </div>
+    </div>
+
+      <div class="card" style="width: 20rem;">
+        <div class="card-body">
+          <div class="card-title">
+            Special Thanks!
+          </div>
+          <div class="card-text">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Rick Anderson</li>
+              <li class="list-group-item">Christopher Laine</li>
+              <li class="list-group-item">The Team behind Open Graph protocol</li>
+              <li class="list-group-item">The Team behind HtmlAgilityPack</li>
+              <li class="list-group-item">The Team behind Feather Icons</li>
+              <li class="list-group-item">The Team behind Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+    </body>
+    <script src="options.js"></script>
+  </html>

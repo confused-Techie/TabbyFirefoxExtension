@@ -1,18 +1,21 @@
 {
   "manifest_version": 2,
   "name": "Tabby Firefox Extension",
-  "version": "1.0",
+  "version": "0.1",
 
   "description": "Easily add BookMarks to Tabby from Firefox!",
+  "homepage_url": "https://github.com/confused-Techie/TabbyFirefoxExtension",
 
   "icons": {
     "48": "images/tabbyIcon48.png"
   },
+  "permissions": [
+    "activeTab"
+  ],
 
-  "content_scripts": [
-    {
-      "matches": ["https://*/*", "http://*/*"],
-      "js": ["extension.js"]
-    }
-  ]
+  "browser_action": {
+    "default_icon": "images/tabbyIcon32.png",
+    "default_title": "Tabby Extension",
+    "default_popup": "extension.html"
+  }
 }
