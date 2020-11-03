@@ -66,5 +66,5 @@ function logSuccess() {
 }
 
 function logFailure(respIssue) {
-  document.getElementById("statusMessage").innerHTML = "Status: Error: " + respIssue;
+  document.getElementById("statusMessage").innerHTML = "Status: Error: " + String(respIssue);
 }

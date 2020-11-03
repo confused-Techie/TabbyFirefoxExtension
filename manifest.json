@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Tabby Firefox Extension",
-  "version": "0.1",
+  "name": "Tabby Extension",
+  "version": "1.0",
 
-  "description": "Easily add BookMarks to Tabby from Firefox!",
+  "description": "Easily add BookMarks to Tabby from your favourite Browser!",
   "homepage_url": "https://github.com/confused-Techie/TabbyFirefoxExtension",
 
   "icons": {
