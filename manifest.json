@@ -10,7 +10,10 @@
     "48": "images/tabbyIcon48.png"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "https://*/*",
+    "http://*/*",
+    "storage"
   ],
 
   "browser_action": {
